@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+html {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+html.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+html.dark {
+  background-color: #1a202c;
+  color: #ffffff;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
